@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #006996;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+li{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.lado{
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none; 
+    display: flex;
+    align-items: center; 
+}
+.navbar{
+    padding-top: 2.5%;
+}
+
+.navbar li {
+    color: #EBDFC5;
+    font-size: 18px;
+    font-family: Montserrat;
+    word-wrap: break-word
+}
+
+.navbar li:hover{
+    transition: 0.5s ease;
+    color: #E45F15;
+}
+
+.navbar img {
+    height: 40px; 
+    margin-right: 2%;
+}
+
+a{
+    color: #EBDFC5;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.5s ease;
+    color: #E45F15;
+}
+
+h2 {
+    height: 1rem;
+    font-size: 10rem;
+    margin: 8rem;
+    font-family: Oswald;
+    color: #E45F15;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    border-radius: 2.3125rem;
+    border: 2px solid #EBDFC5;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 22.625rem;
+    height: 3.6875rem;
+    padding-left: 5%;
+    background-color: #006996;
+}
+
+::placeholder {
+    color: #EBDFC5;
+}
+
+button {
+    background-color: #E45F15;
+    width: 23.725rem;
+    height: 3.6875rem;
+    border-radius: 2.3125rem;
+    border: 1px solid #E45F15;
+    background: var(--Laranja, #E45F15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #EBDFC5;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 1%; 
+}
+
+section p {
+    color: #EBDFC5;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+}
+
+.laranja {
+    background-color: #E45F15;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.laranja p {
+    color: #EBDFC5;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.laranja img {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-color: #da743d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+form a {
+    color: #EBDFC5;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+a:hover{
+    transition: 0.5s ease;
+    color: #E45F15;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cima {
+    margin-top: 70px;
+    margin-bottom: 12px;
+}
+
+#debaixo {
+    margin-bottom: 400px;
+}
